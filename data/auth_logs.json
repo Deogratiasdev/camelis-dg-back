@@ -1,0 +1,4929 @@
+[
+  {
+    "id": "ca0d40f7-3c00-4fad-b8ac-0ca1c982f59b",
+    "timestamp": "2026-04-27T15:50:09.227440",
+    "event_type": "register",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: test4@example.com",
+    "session_id": null
+  },
+  {
+    "id": "afe97432-d166-4df0-881b-d83bfe81086f",
+    "timestamp": "2026-04-27T15:50:24.327355",
+    "event_type": "request_otp",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré: test4@example.com",
+    "session_id": null
+  },
+  {
+    "id": "fac3e423-47c9-4380-8fc2-004358724297",
+    "timestamp": "2026-04-27T15:50:32.536125",
+    "event_type": "verify_otp",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP validé avec succès pour test4@example.com",
+    "session_id": null
+  },
+  {
+    "id": "bca661db-0e70-4830-a32d-bda664add0de",
+    "timestamp": "2026-04-27T15:51:00.112379",
+    "event_type": "login",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test4@example.com",
+    "session_id": "afda7921-6f36-4db4-a557-0aa086346dd7"
+  },
+  {
+    "id": "56f5775d-1a7f-49eb-a3a1-ad01b76157bc",
+    "timestamp": "2026-04-27T15:51:06.591715",
+    "event_type": "access_logs",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation logs: 4 événements",
+    "session_id": "afda7921-6f36-4db4-a557-0aa086346dd7"
+  },
+  {
+    "id": "95244add-dfc5-4eab-b5e5-33b99dbdcd60",
+    "timestamp": "2026-04-27T15:51:20.363038",
+    "event_type": "access_security",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "afda7921-6f36-4db4-a557-0aa086346dd7"
+  },
+  {
+    "id": "babfa676-ebe0-472d-b661-baa0db301f38",
+    "timestamp": "2026-04-27T15:52:18.373532",
+    "event_type": "access_security",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "afda7921-6f36-4db4-a557-0aa086346dd7"
+  },
+  {
+    "id": "40a3ed31-7910-4b23-9918-8642c187aa94",
+    "timestamp": "2026-04-27T15:53:26.610054",
+    "event_type": "access_security",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "afda7921-6f36-4db4-a557-0aa086346dd7"
+  },
+  {
+    "id": "122d5f28-6536-41e8-a9b0-1c2d30237d75",
+    "timestamp": "2026-04-27T15:53:56.715398",
+    "event_type": "register",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: test5@example.com",
+    "session_id": null
+  },
+  {
+    "id": "7bcf1611-2a22-4a58-939c-ddad1aed72ad",
+    "timestamp": "2026-04-27T15:54:02.548561",
+    "event_type": "request_otp",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré: test5@example.com",
+    "session_id": null
+  },
+  {
+    "id": "68010ab3-fba9-42f1-be7d-c0f700c9b292",
+    "timestamp": "2026-04-27T15:54:13.492778",
+    "event_type": "verify_otp",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP validé avec succès pour test5@example.com",
+    "session_id": null
+  },
+  {
+    "id": "7b77b1b5-426e-48df-afbc-19e13baba908",
+    "timestamp": "2026-04-27T15:54:21.912817",
+    "event_type": "login",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test5@example.com",
+    "session_id": "7ad90944-670e-4ce8-9275-22d57422c108"
+  },
+  {
+    "id": "00abd5bc-4d56-4f92-a144-a6042b7190f3",
+    "timestamp": "2026-04-27T15:54:30.243902",
+    "event_type": "access_security",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "7ad90944-670e-4ce8-9275-22d57422c108"
+  },
+  {
+    "id": "c06b2970-295e-4b2d-abc7-4d948775b95e",
+    "timestamp": "2026-04-27T15:54:44.048970",
+    "event_type": "access_security",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "7ad90944-670e-4ce8-9275-22d57422c108"
+  },
+  {
+    "id": "4b010543-8593-4a41-9526-3b4b6c9bc23e",
+    "timestamp": "2026-04-27T15:54:55.319707",
+    "event_type": "access_alerts",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation alertes: 0 événements à risque",
+    "session_id": "7ad90944-670e-4ce8-9275-22d57422c108"
+  },
+  {
+    "id": "b9d36e82-0028-4c96-95e1-832345a88c2a",
+    "timestamp": "2026-04-27T15:55:03.569723",
+    "event_type": "login",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Mot de passe incorrect: test5@example.com",
+    "session_id": "7ad90944-670e-4ce8-9275-22d57422c108"
+  },
+  {
+    "id": "55c77a03-da1c-42a5-9642-5bf44f522f21",
+    "timestamp": "2026-04-27T15:57:43.523106",
+    "event_type": "register",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: test6@example.com",
+    "session_id": null
+  },
+  {
+    "id": "9af7f3c9-c615-4273-bb10-adf80e458777",
+    "timestamp": "2026-04-27T15:57:50.766467",
+    "event_type": "request_otp",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré: test6@example.com",
+    "session_id": null
+  },
+  {
+    "id": "edc1c8f6-6354-4ead-9d70-2e735502a2db",
+    "timestamp": "2026-04-27T15:57:58.467315",
+    "event_type": "verify_otp",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP validé avec succès pour test6@example.com",
+    "session_id": null
+  },
+  {
+    "id": "e3a51f4c-3d3e-48a7-b053-214818689f39",
+    "timestamp": "2026-04-27T15:58:05.390422",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "f7113028-793e-450b-b428-cd66c5ffbec6",
+    "timestamp": "2026-04-27T15:58:13.695292",
+    "event_type": "access_security",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "149f13c0-f15c-4b55-9179-55b12a2779d7",
+    "timestamp": "2026-04-27T15:58:25.045368",
+    "event_type": "access_security",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation résumé sécurité: score 100/100",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "6bd87836-8f79-40c9-b1b5-6f7a8fc13e43",
+    "timestamp": "2026-04-27T15:58:31.230111",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Mot de passe incorrect: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "31db86aa-6e99-4845-9dc2-55168801ed11",
+    "timestamp": "2026-04-27T16:10:53.515970",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "21e6253b-770d-46e5-a59e-51263812a89f",
+    "timestamp": "2026-04-27T16:11:01.710616",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "588bcaf9-4f39-405a-9773-cb5498922b96",
+    "timestamp": "2026-04-27T16:11:16.521029",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 25 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "0cb7d7aa-de35-4760-8546-e44f5a1ca9fa",
+    "timestamp": "2026-04-27T16:11:36.212189",
+    "event_type": "behavioral_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "54db4833-4e2f-452d-ac7a-6aa27f59866a",
+    "timestamp": "2026-04-27T16:11:47.479052",
+    "event_type": "access_metrics",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation métriques globales",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "3dad9f3d-ba09-44b5-83c1-fd7f15ab18e3",
+    "timestamp": "2026-04-27T16:12:07.918607",
+    "event_type": "access_dashboard",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Consultation dashboard sécurité",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "a2f4d1bf-7fe8-4f23-91c2-d83d807d4afa",
+    "timestamp": "2026-04-27T16:12:49.088789",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 29 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "c5515a43-6728-46bb-a18a-99c96ead7a4d",
+    "timestamp": "2026-04-27T16:13:11.539769",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "4dabf9cb-b6f7-4ded-b79d-730d4f8b794d",
+    "timestamp": "2026-04-27T16:13:21.031046",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 31 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "861bd5b6-51f1-4e81-8650-b209f1afc67f",
+    "timestamp": "2026-04-27T16:13:47.253167",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 32 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "c968ec46-19ea-4951-a60a-366e840808ab",
+    "timestamp": "2026-04-27T16:14:20.162184",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "46089907-8645-412f-b34f-cddf4f5c7516",
+    "timestamp": "2026-04-27T16:14:35.880688",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 34 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "46ecd6c6-2d11-4aad-ae32-d9d7795f983a",
+    "timestamp": "2026-04-27T16:15:11.593165",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "e2e72cfc-7c1f-4fd7-8bd4-1ed43c19e3b6",
+    "timestamp": "2026-04-27T16:15:23.191524",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 36 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "eadfffc6-0ebe-4d27-8539-5ac84b064fdb",
+    "timestamp": "2026-04-27T16:16:00.964938",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "eb6eba64-00ae-452f-8c01-e94b5831466b",
+    "timestamp": "2026-04-27T16:16:08.895412",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 38 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "b402ba35-903f-4481-91de-41a46c9a91e5",
+    "timestamp": "2026-04-27T16:17:31.260537",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "6b96c6a3-c16f-49a4-8db5-743fadf8b0f9",
+    "timestamp": "2026-04-27T16:17:52.163815",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 40 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "d4166865-81a0-4fe5-8b07-c03520a16c37",
+    "timestamp": "2026-04-27T16:18:25.882659",
+    "event_type": "ai_prediction",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 41 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "003e0b36-910a-4ab5-b025-2a222d84fd53",
+    "timestamp": "2026-04-27T16:18:58.129994",
+    "event_type": "ai_recommendations",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 96",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "f309301c-eb03-4467-b691-7bb2d1aae150",
+    "timestamp": "2026-04-27T16:23:11.028659",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "130d19fc-56bf-41eb-adf6-7e420cb7a7c7",
+    "timestamp": "2026-04-27T16:23:22.951822",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 44 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "55beddfd-be99-4ca2-9536-142bbbd971e2",
+    "timestamp": "2026-04-27T16:23:48.458374",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 45 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "d350efb5-8002-4dd0-a9e5-ac6c4bd864f1",
+    "timestamp": "2026-04-27T16:24:06.281137",
+    "event_type": "access_me",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Accès réussi à /me pour test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "a3786e12-a353-46af-9c3d-e2ec49510ee1",
+    "timestamp": "2026-04-27T16:24:22.025329",
+    "event_type": "ai_analysis",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA - 47 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "ab6d7e76-2a65-4afc-9384-d23cad4cde48",
+    "timestamp": "2026-04-27T16:24:48.205532",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "19fa858b-9dc6-468c-8b8e-ff402205c90d",
+    "timestamp": "2026-04-27T16:25:03.383193",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "12a4f983-f221-47f2-853f-28c65c11bc77",
+    "timestamp": "2026-04-27T16:25:15.520316",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 34 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "3d3aeaf0-8c6f-4776-896a-7ebc6a5e942e",
+    "timestamp": "2026-04-27T16:30:26.481651",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "1d5db53f-e9d4-4d39-bf23-5d7b65e814b5",
+    "timestamp": "2026-04-27T16:30:43.891435",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 36 logs analysés",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "24c7d5f0-290d-4237-b2de-e6272694ee91",
+    "timestamp": "2026-04-27T16:31:15.831336",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "79913868-0204-4eaf-ab10-250d7c91aec0",
+    "timestamp": "2026-04-27T16:31:21.047646",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "36e9779a-2fa8-43d4-b0c4-c6e21065bc9e",
+    "timestamp": "2026-04-27T16:32:56.898899",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "7302f015-26d8-45db-b912-93e46e20a926",
+    "timestamp": "2026-04-27T16:33:21.121982",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "6f3e9c6e-69df-4945-af7d-a93043026c93",
+    "timestamp": "2026-04-27T16:33:35.545848",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "5dc59a8d-8cb7-4bb6-9cdc-578d15e52163",
+    "timestamp": "2026-04-27T16:37:22.485659",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "6c05e13f-dbc9-4ad9-ad66-79772f5653d3",
+    "timestamp": "2026-04-27T16:39:24.773931",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "c232e218-82e1-4ed1-8aec-94718be3a078",
+    "timestamp": "2026-04-27T16:40:33.532581",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "5d1dcf66-b6a8-498c-ae5c-bbabaa9a01de",
+    "timestamp": "2026-04-27T16:44:26.770678",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "c95bd979-e3e2-459c-8e57-b9ed77649532",
+    "timestamp": "2026-04-27T16:44:35.674930",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "fb74bb36-5427-489e-a5c1-8df322d94a79",
+    "timestamp": "2026-04-27T16:44:59.563616",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "1a8792f8-e9ed-4954-a339-3803fa754d82",
+    "timestamp": "2026-04-27T16:45:16.377833",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "8dd2a27c-f176-4019-8012-1dc452660187",
+    "timestamp": "2026-04-27T16:46:03.880077",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "396c0deb-00b4-42bd-bfab-fe9f3895ee89",
+    "timestamp": "2026-04-27T16:46:22.104439",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "8ed33ef4-c410-45d4-9728-d19c81a71911",
+    "timestamp": "2026-04-27T16:46:54.941230",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "7ea09c2c-90e4-41e8-ae48-db004696e94e",
+    "timestamp": "2026-04-27T16:49:29.824300",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "f12b9c1b-c1cc-48d4-b891-1c45c4c49780",
+    "timestamp": "2026-04-27T17:07:40.598321",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "4af05c74-14df-4ff4-9288-bcc909e94e05",
+    "timestamp": "2026-04-27T17:09:24.941165",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "00aadb3e-48b3-413e-be16-8ba66be84e40",
+    "timestamp": "2026-04-27T17:09:56.515340",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "02298e8d-ddac-4893-8f4e-87d0aab26c5d",
+    "timestamp": "2026-04-27T17:14:30.813507",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "2c079609-f98b-491a-abf8-afc96806ff51",
+    "timestamp": "2026-04-27T17:14:46.075666",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "7d3d8f84-52b6-4445-be2c-0d4d68a44386",
+    "timestamp": "2026-04-27T17:15:33.417007",
+    "event_type": "login",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: test6@example.com",
+    "session_id": "9dc18154-8b00-4a5b-99dd-f342340f831d"
+  },
+  {
+    "id": "b7f8f435-5d2f-4496-8f53-bcc8adc291de",
+    "timestamp": "2026-04-27T17:46:43.133294",
+    "event_type": "register",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: testdemo@test.com",
+    "session_id": null
+  },
+  {
+    "id": "3a7ce9ae-6fd1-42a9-92c9-df540f8f1e38",
+    "timestamp": "2026-04-27T17:48:01.301589",
+    "event_type": "login",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Compte non vérifié: testdemo@test.com",
+    "session_id": null
+  },
+  {
+    "id": "a5d374b5-192d-45b9-a052-7843ba49daf4",
+    "timestamp": "2026-04-27T17:48:55.463010",
+    "event_type": "request_otp",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré: testdemo@test.com",
+    "session_id": null
+  },
+  {
+    "id": "a2d390ec-934e-48fa-b9a2-71b3a9d6e20b",
+    "timestamp": "2026-04-27T17:50:15.196698",
+    "event_type": "verify_otp",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP validé avec succès pour testdemo@test.com",
+    "session_id": null
+  },
+  {
+    "id": "2b5bd53c-9f30-4bec-9714-f109d801c9e5",
+    "timestamp": "2026-04-27T17:51:32.550441",
+    "event_type": "login",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: testdemo@test.com",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "ce3baf4c-6f4e-44ce-b531-123720a6ec39",
+    "timestamp": "2026-04-27T17:58:20.537548",
+    "event_type": "login",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: testdemo@test.com",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "785c28b8-072b-405f-9d58-1e3cccc8f872",
+    "timestamp": "2026-04-27T17:59:23.874677",
+    "event_type": "login",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: testdemo@test.com",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "c9bb92fc-5985-40c1-9c67-b2c57f916c30",
+    "timestamp": "2026-04-27T18:00:54.021429",
+    "event_type": "access_my_security",
+    "user_id": null,
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Tentative accès /my-security avec token invalide",
+    "session_id": null
+  },
+  {
+    "id": "84fd1bed-6f9b-4287-b1eb-7ee5b5320526",
+    "timestamp": "2026-04-27T18:01:48.674929",
+    "event_type": "login",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Connexion réussie: testdemo@test.com",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "52749058-e271-49dd-8d61-6919d66e0386",
+    "timestamp": "2026-04-27T18:02:25.574677",
+    "event_type": "access_my_security",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 8 logs, 1 alertes",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "28562350-9e03-4d35-9480-0aa44d987c85",
+    "timestamp": "2026-04-27T18:03:15.669448",
+    "event_type": "access_my_security",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 9 logs, 1 alertes",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "6c84aa65-b42f-4b06-8cd0-ea47cf1200b7",
+    "timestamp": "2026-04-27T18:04:06.873321",
+    "event_type": "access_my_security",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 10 logs, 1 alertes",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "5072ff36-8a42-426f-9ccb-948e189c25bb",
+    "timestamp": "2026-04-27T18:05:02.133869",
+    "event_type": "access_my_security",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 11 logs, 1 alertes",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "6413bb20-0d4d-4a75-ac62-d728baa5b40d",
+    "timestamp": "2026-04-27T18:07:00.164188",
+    "event_type": "access_security_dashboard",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Dashboard rapide - 3 alertes",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "51949000-585d-4706-8e14-479bff0c0158",
+    "timestamp": "2026-04-27T18:14:11.469833",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 13 logs analysés",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "922eb6e6-a678-4c6c-94d7-01c97e2740b1",
+    "timestamp": "2026-04-27T18:17:04.013865",
+    "event_type": "ai_prediction",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 90 logs analysés",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "fd9c3b9e-eaab-472c-b4a9-9932b51761c6",
+    "timestamp": "2026-04-27T18:17:37.379142",
+    "event_type": "ai_recommendations",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 97",
+    "session_id": "2854004e-f3d3-4312-87c2-b50bf070efec"
+  },
+  {
+    "id": "de1abe95-1ac0-4114-bbe7-ee2b5c2307ef",
+    "timestamp": "2026-04-27T19:17:55.811704",
+    "event_type": "request_otp",
+    "user_id": null,
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Tentative OTP email inexistant: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "c48fb8be-30ae-4145-a955-6a4d58ae0174",
+    "timestamp": "2026-04-27T19:24:05.335104",
+    "event_type": "register",
+    "user_id": "0cfcee15-dcb4-4d2f-856f-f26751597435",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "7883b29d-d81d-4f33-bb74-d9638e5511cd",
+    "timestamp": "2026-04-27T19:24:21.515177",
+    "event_type": "request_otp",
+    "user_id": "0cfcee15-dcb4-4d2f-856f-f26751597435",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "e5e0a57e-30d7-4b88-b729-54474adeb269",
+    "timestamp": "2026-04-27T19:29:09.485546",
+    "event_type": "request_otp",
+    "user_id": "0cfcee15-dcb4-4d2f-856f-f26751597435",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "b40cbdb5-7cd6-4c9b-8b30-3390288d9eb4",
+    "timestamp": "2026-04-27T20:28:30.734287",
+    "event_type": "register",
+    "user_id": "8413820c-083e-467b-9137-eb5a57cb7d43",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: ",
+    "session_id": null
+  },
+  {
+    "id": "7531b184-ad04-43f0-9f36-c77797bb03a9",
+    "timestamp": "2026-04-27T20:28:30.899460",
+    "event_type": "verify_otp",
+    "user_id": "8413820c-083e-467b-9137-eb5a57cb7d43",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP invalide/expire: 444455",
+    "session_id": null
+  },
+  {
+    "id": "66af7adc-aee1-4e02-9d08-7595392e868d",
+    "timestamp": "2026-04-27T20:29:26.743019",
+    "event_type": "register",
+    "user_id": null,
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Email déjà utilisé: ",
+    "session_id": null
+  },
+  {
+    "id": "af04da2b-4077-41b9-9b1f-61543cdb82b8",
+    "timestamp": "2026-04-27T20:31:21.004831",
+    "event_type": "register",
+    "user_id": "17d5fd57-1bfc-4ab1-b2a9-9184a8077f61",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: ",
+    "session_id": null
+  },
+  {
+    "id": "e16d7853-8fce-4cd5-8957-3fffaf3c2a30",
+    "timestamp": "2026-04-27T20:31:21.123567",
+    "event_type": "verify_otp",
+    "user_id": "17d5fd57-1bfc-4ab1-b2a9-9184a8077f61",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP invalide/expire: 987654",
+    "session_id": null
+  },
+  {
+    "id": "883a8a9d-46bd-41c6-bc6f-acf2871e592c",
+    "timestamp": "2026-04-27T20:31:57.043792",
+    "event_type": "register",
+    "user_id": null,
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Email déjà utilisé: ",
+    "session_id": null
+  },
+  {
+    "id": "4173cea0-609d-4517-8382-fae09c0ba37f",
+    "timestamp": "2026-04-27T20:39:06.532930",
+    "event_type": "register",
+    "user_id": "530d165c-78d0-4020-b8b3-64c5fbf8ebcc",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "3222dd63-e239-4800-967d-7489c590a422",
+    "timestamp": "2026-04-27T20:39:06.716958",
+    "event_type": "request_otp",
+    "user_id": "530d165c-78d0-4020-b8b3-64c5fbf8ebcc",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "a6cc9162-d873-4044-b8ba-63be143dfa26",
+    "timestamp": "2026-04-27T20:40:56.651339",
+    "event_type": "verify_otp",
+    "user_id": "530d165c-78d0-4020-b8b3-64c5fbf8ebcc",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP invalide/expire: 987654",
+    "session_id": null
+  },
+  {
+    "id": "36c0220b-1179-4143-90bf-c9028636c774",
+    "timestamp": "2026-04-27T20:44:14.803869",
+    "event_type": "register",
+    "user_id": "e7ff8778-2df2-473f-a3b7-1bac68d1df48",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "cf1e014b-290b-439a-8e2a-393d66ebe400",
+    "timestamp": "2026-04-27T20:44:14.964024",
+    "event_type": "request_otp",
+    "user_id": "e7ff8778-2df2-473f-a3b7-1bac68d1df48",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "98e5fa5b-47a9-464e-b7e4-ebec88d2d321",
+    "timestamp": "2026-04-27T20:48:12.437082",
+    "event_type": "request_otp",
+    "user_id": "e7ff8778-2df2-473f-a3b7-1bac68d1df48",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "5d58d1f3-f085-45d4-ab19-7a2a656c2bc1",
+    "timestamp": "2026-04-27T20:53:43.121988",
+    "event_type": "register",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "8e4a8f6f-b26c-479b-9c91-812cb91137c6",
+    "timestamp": "2026-04-27T20:53:43.300399",
+    "event_type": "request_otp",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "cde1f282-ad4e-4e1c-bee9-2e8574705622",
+    "timestamp": "2026-04-27T20:56:52.722151",
+    "event_type": "request_otp",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: False)",
+    "session_id": null
+  },
+  {
+    "id": "11d732fc-5347-4de5-8fe1-322cbe90e22c",
+    "timestamp": "2026-04-27T20:58:46.729397",
+    "event_type": "request_otp",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou1@gmail.com (email_sent: True)",
+    "session_id": null
+  },
+  {
+    "id": "468f24f2-94dc-41dd-8033-073109683b00",
+    "timestamp": "2026-04-27T20:59:19.915204",
+    "event_type": "verify_otp",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP validé avec succès pour deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "413edf3a-98ac-4650-9c2e-7fba57de3a92",
+    "timestamp": "2026-04-27T21:00:06.147987",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "7be84c20-9f35-4095-9a7e-79457dd1873e"
+  },
+  {
+    "id": "aabefd87-9cd2-450e-bab9-8f9f29bf808b",
+    "timestamp": "2026-04-27T21:00:19.958574",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "7be84c20-9f35-4095-9a7e-79457dd1873e"
+  },
+  {
+    "id": "73dc1920-1f54-48bf-a6e0-0aae00206887",
+    "timestamp": "2026-04-27T21:04:17.904856",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": null
+  },
+  {
+    "id": "c5305d75-618a-458e-8b6a-ee4783fbdc1f",
+    "timestamp": "2026-04-27T21:04:25.167566",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": null
+  },
+  {
+    "id": "fa421b59-13e2-459c-9ce3-ce5e433b88dd",
+    "timestamp": "2026-04-27T21:04:31.717906",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": null
+  },
+  {
+    "id": "7e491813-12af-42a9-b174-28f8bf7fd266",
+    "timestamp": "2026-04-27T21:04:37.641595",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": null
+  },
+  {
+    "id": "9f9c03bc-6e58-4ea9-b962-2d0e76bc531c",
+    "timestamp": "2026-04-27T21:18:37.402751",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "77453727-d9b1-4d62-a576-7227959b846b",
+    "timestamp": "2026-04-27T21:18:41.480672",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 12 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "769e5768-58d2-4f8d-a7d1-7b02f75e3510",
+    "timestamp": "2026-04-27T21:21:20.320422",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 13 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "91ae41c5-5a2b-4b03-b19f-da18d90b3b04",
+    "timestamp": "2026-04-27T21:22:06.321238",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 14 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e8951026-41f4-4618-af69-0becb4cec684",
+    "timestamp": "2026-04-27T21:23:23.357084",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 15 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "0b17dac4-5bd7-401e-a9e6-b590a0a9f1a0",
+    "timestamp": "2026-04-27T21:23:31.702384",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 16 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "8a210646-b95f-4fb5-bbe8-4e303dbc9150",
+    "timestamp": "2026-04-27T21:25:11.278260",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 17 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "45b28a20-a85e-4c31-a12d-3f61804dbcf0",
+    "timestamp": "2026-04-27T21:25:19.969944",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 18 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f6e45528-9e37-475a-9aba-52632d7cac9c",
+    "timestamp": "2026-04-27T21:25:25.599896",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 19 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "878f3ced-8933-4a00-9d4e-86b86d9addc5",
+    "timestamp": "2026-04-27T21:25:25.828182",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "3f6e46cc-044a-41b8-bdaf-c0e0ae1b2822",
+    "timestamp": "2026-04-27T21:25:25.949480",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "d653e4bf-e3f3-4ce5-86d8-e4e6212d1214",
+    "timestamp": "2026-04-27T21:25:45.227239",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "894b9af1-7252-4512-b4d8-394dc46bdba7",
+    "timestamp": "2026-04-27T21:26:08.378563",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "7def3f5c-aeff-43e8-a337-0ca6a3a78214",
+    "timestamp": "2026-04-27T21:26:15.432703",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "fbc585c2-20c5-42c2-9558-f43a56dc16dd",
+    "timestamp": "2026-04-27T21:26:53.997096",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "4bf244f0-5c16-4452-9273-dcb1133493a1",
+    "timestamp": "2026-04-27T21:32:32.427407",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 26 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "5399135e-537e-4d0e-b386-1ea6d822b042",
+    "timestamp": "2026-04-27T21:32:41.198445",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 135 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "acf7f0ec-4348-45de-b564-28a636073e72",
+    "timestamp": "2026-04-27T21:32:43.706200",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "032593f5-4252-418e-a28d-d8410633ce7a",
+    "timestamp": "2026-04-27T21:32:45.000108",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "597e234c-a213-416b-9e9c-fbc9380455e9",
+    "timestamp": "2026-04-27T21:32:50.332254",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "319734c9-b62f-4572-b04a-c2f01c995840",
+    "timestamp": "2026-04-27T21:35:00.238921",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 139 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "2f43d739-ab29-4863-b5e1-bf68e6c9dad9",
+    "timestamp": "2026-04-27T21:35:56.224834",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 32 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f7c7bd5c-3719-4f1a-b155-9ba179f90775",
+    "timestamp": "2026-04-27T21:37:20.425151",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 141 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "a5f5c821-d442-4433-9fc9-e5f7991f4c04",
+    "timestamp": "2026-04-27T21:42:40.247025",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 34 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "393794a8-c7ae-43b5-97c3-e2e0959dadd0",
+    "timestamp": "2026-04-27T21:43:58.916362",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "504d9007-935a-425b-b23f-c6e07f65ff33",
+    "timestamp": "2026-04-27T21:45:29.249142",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "95c44848-29b5-45b2-821c-48433414185a",
+    "timestamp": "2026-04-27T21:45:56.422691",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "55aa0d64-1c82-4777-9c34-54fca3b15fdf",
+    "timestamp": "2026-04-27T21:46:03.453451",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "799fd89a-5987-4633-ad11-b1d7be76454f",
+    "timestamp": "2026-04-27T21:46:22.282549",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "577a137e-99ac-48a8-bbb8-2206a2bb8a35",
+    "timestamp": "2026-04-27T21:46:48.456005",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "80c53ea7-e80b-4011-be12-2ae451a4c831",
+    "timestamp": "2026-04-27T21:47:46.916728",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "9cc41bc7-06d4-47eb-a17b-633f1bb24f32",
+    "timestamp": "2026-04-27T21:47:51.887972",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "46e15d8d-a919-4a4a-a750-de59019bb098",
+    "timestamp": "2026-04-27T21:48:02.660388",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "d4372797-b3b9-4773-b67b-7be589558c44",
+    "timestamp": "2026-04-27T21:48:10.233468",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f0e7cb01-0c80-41d5-a414-d57e7771c805",
+    "timestamp": "2026-04-27T21:48:38.110241",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 45 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "fdac2f92-5c65-4a22-9fa2-89cd1ec57563",
+    "timestamp": "2026-04-27T21:50:20.233368",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e320eab7-c302-4d41-97c6-cde9817b25b0",
+    "timestamp": "2026-04-27T21:51:41.718515",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e2bf8052-8d5e-41bb-91b0-86bf88587bfe",
+    "timestamp": "2026-04-27T21:51:45.126846",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "78ccad1c-0299-4054-b020-747d7d3f3e1e",
+    "timestamp": "2026-04-27T21:51:55.191948",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f6515a62-4c1e-41b0-851e-247ea0dc4aa8",
+    "timestamp": "2026-04-27T21:52:08.331113",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 158 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "d57305dc-6e46-408c-a3b7-79dfe697ac91",
+    "timestamp": "2026-04-27T21:54:44.368080",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e718f24e-5256-4b68-8888-62707f2da1e1",
+    "timestamp": "2026-04-27T21:57:01.100017",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 160 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "eb469520-a825-4ed6-b4c8-835ac90572a2",
+    "timestamp": "2026-04-27T21:57:12.334615",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 53 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "550eb937-3d1c-4a41-a925-907a6f446260",
+    "timestamp": "2026-04-27T21:57:42.665000",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 162 logs analysés",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "733bbcfc-415c-4d84-b267-33fd0e503c11",
+    "timestamp": "2026-04-27T21:57:45.891818",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "4441e404-11d4-451e-b14c-7193efc48f43",
+    "timestamp": "2026-04-27T21:57:56.558828",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "52533ba5-558e-4e3f-b86f-989f02f15df7",
+    "timestamp": "2026-04-27T21:57:56.614690",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "d338c40f-df62-4ad8-a4c0-cd1da0fc86ca",
+    "timestamp": "2026-04-27T21:58:01.168614",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "244e78b6-ed02-48d1-9c74-c7ca7bcc9d24",
+    "timestamp": "2026-04-27T22:07:04.470034",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "49953fc1-89ba-4877-8327-848ad8fe29a8",
+    "timestamp": "2026-04-27T22:09:14.414827",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "010c36a1-6261-4564-89a8-b590fe38f2fd",
+    "timestamp": "2026-04-27T22:09:15.944292",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "830469b5-71d3-4267-8512-664665381cd1",
+    "timestamp": "2026-04-27T22:09:33.395146",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "46fb72ea-6d6c-4325-be0b-28ff04c85a08",
+    "timestamp": "2026-04-27T22:09:52.454043",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "5a350788-1a70-48c5-b714-9e798a226072",
+    "timestamp": "2026-04-27T22:10:24.457062",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "8ad7e222-91ed-477d-b231-4c197dad59aa",
+    "timestamp": "2026-04-27T22:20:33.118297",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "264a6423-d118-4279-a354-e7e25c0184a7",
+    "timestamp": "2026-04-27T22:20:41.192812",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "19fc4200-da3a-4069-b5ea-b45f6728214f",
+    "timestamp": "2026-04-27T22:21:20.816486",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "9e59cc08-d4bb-4ffc-96f8-536b5e067304",
+    "timestamp": "2026-04-27T22:21:43.156923",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "c0a69bc4-8d6c-4bf4-b17c-7d23d769f102",
+    "timestamp": "2026-04-27T22:21:44.660460",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f8da4e1e-24b1-4137-a2a9-5449bed870fb",
+    "timestamp": "2026-04-27T22:22:51.888729",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e14b2071-b22e-40c9-bf2e-c82876c5344b",
+    "timestamp": "2026-04-27T22:23:02.392207",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "883c068d-b7e8-4a3d-a30c-f443170753e7",
+    "timestamp": "2026-04-27T22:23:29.134798",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "1246b212-a48b-458f-bc41-671402df54fc",
+    "timestamp": "2026-04-27T22:23:41.193025",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f8f054ad-726d-4b49-8234-bd9a55afc3e0",
+    "timestamp": "2026-04-27T22:24:50.102837",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "a608114a-574f-44b6-81ab-80c5975017e2",
+    "timestamp": "2026-04-27T22:26:39.347529",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "0b0a66ba-4a7e-4115-8257-b5a923f4137a",
+    "timestamp": "2026-04-27T22:27:12.657809",
+    "event_type": "voice_registered",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échantillon vocal enregistré: efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_a0e1d56b.wav",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "bd534949-9a14-4d96-ab0f-7954b9597081",
+    "timestamp": "2026-04-27T22:27:14.884095",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "2ac47812-376d-4102-96d2-275bd69a7163",
+    "timestamp": "2026-04-27T22:28:57.867925",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e1876d83-0d0e-486c-9f84-638cfd5398be",
+    "timestamp": "2026-04-27T22:29:04.672395",
+    "event_type": "voice_verification_failed",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échec reconnaissance vocale",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "7342e5a3-3c88-40ec-8e06-9b1f534268e1",
+    "timestamp": "2026-04-27T22:30:05.661937",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "c52dc070-ca8f-42a6-97ae-376b5daf56d7",
+    "timestamp": "2026-04-27T22:30:07.323385",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "d75ffac9-7d5c-4092-967a-055c9fa08754",
+    "timestamp": "2026-04-27T22:31:27.467105",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "5264cb93-95f6-42b5-bd16-2a578e887e00",
+    "timestamp": "2026-04-27T22:31:58.778869",
+    "event_type": "voice_registered",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échantillon vocal enregistré: efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_60bfd866.wav",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "9c1703c6-7cab-4ff5-b80c-32745e8ecc75",
+    "timestamp": "2026-04-27T22:32:01.295804",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "e0957127-bc2e-4ae3-8b61-fdc2184f0189",
+    "timestamp": "2026-04-27T22:32:05.235481",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "bc1ddad3-7a95-45ff-a130-2c049afb0b28",
+    "timestamp": "2026-04-27T22:32:44.869923",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "37b8545b-cd01-48f0-9d86-15c3964b339a",
+    "timestamp": "2026-04-27T22:32:51.473106",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "1ca9c467-b033-4ab9-ab6b-c662c0a05a1c",
+    "timestamp": "2026-04-27T22:32:54.507392",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "04c2c6d5-9b9e-4e99-8e4c-51a903ccf513",
+    "timestamp": "2026-04-27T22:43:05.389423",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "a64efe0a-95fa-4909-88c2-df65e1cfbc7f",
+    "timestamp": "2026-04-27T22:43:16.322506",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "b77d1851-10e6-43b4-83ad-b47729166c0a",
+    "timestamp": "2026-04-27T22:43:21.832085",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "9d63b6e8-f17a-40ed-b57a-8374da46595f",
+    "timestamp": "2026-04-27T22:44:02.850323",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "23a42211-b25b-4512-b9ff-6b091398e595",
+    "timestamp": "2026-04-27T22:44:24.396155",
+    "event_type": "voice_registered",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échantillon vocal enregistré: efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_190af569.wav",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "ccd1d0e7-f076-49b4-8def-7cb0954daa68",
+    "timestamp": "2026-04-27T22:44:26.576168",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "ab1d460b-0f8d-4ecc-ae88-8a6db6ab8d07",
+    "timestamp": "2026-04-27T22:44:29.359890",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "af20f609-4083-4763-b6b7-1595fdd60493",
+    "timestamp": "2026-04-27T22:55:38.151366",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "6775b669-2d45-4e7f-a739-1c1ca6ecd64c",
+    "timestamp": "2026-04-27T22:55:39.998999",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "82a083d4-d6f5-41ef-99e2-767285481281",
+    "timestamp": "2026-04-27T22:55:50.543384",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "250dee51-21d8-4c92-877d-28e1961fb511",
+    "timestamp": "2026-04-27T22:55:56.486748",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "08e6e535-653a-4dc7-b4f7-ad4cdee7625c",
+    "timestamp": "2026-04-27T22:56:42.161665",
+    "event_type": "voice_registered",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Échantillon vocal enregistré: efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_edd10fdd.wav",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "0298bb96-9330-4e26-8fbb-7da152e901df",
+    "timestamp": "2026-04-27T22:56:46.955884",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "f937fe4d-413b-452c-a742-3e34314cf220",
+    "timestamp": "2026-04-27T22:56:50.469702",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "ea655284-1618-41e5-8736-0bfbcb737e8b",
+    "timestamp": "2026-04-27T22:56:52.681457",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "3acc4680-7d68-4a67-a356-175106eacb1e",
+    "timestamp": "2026-04-27T22:57:03.755681",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 0 alertes",
+    "session_id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a"
+  },
+  {
+    "id": "fb1d0d5c-04ef-4c6e-ac75-040c290ab09f",
+    "timestamp": "2026-05-03T14:09:53.637125",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": false,
+    "risk_level": "high",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Mot de passe incorrect: deogratiashounnou1@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "2724dc25-a247-4be9-ac19-274cacd00c31",
+    "timestamp": "2026-05-03T14:11:36.692188",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "2b351a4b-a58d-40fc-a5a3-32036dc23b68",
+    "timestamp": "2026-05-03T14:11:38.107643",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "80297cb9-f037-467c-813d-8a97087996ce",
+    "timestamp": "2026-05-03T14:13:09.452043",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "2194565d-239c-403f-8b98-1e7792fbea0a",
+    "timestamp": "2026-05-03T14:13:13.106940",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "a2416058-8d91-4b30-9a50-63203cb8c8e9",
+    "timestamp": "2026-05-03T14:16:35.101518",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 65",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "8ef1fa95-718e-4276-abe0-a8fde61bc4f2",
+    "timestamp": "2026-05-03T14:16:43.106295",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 88",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "e588c29e-c095-4729-96a3-10533391ee56",
+    "timestamp": "2026-05-03T14:16:53.636103",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 90",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "b909f952-7d13-46de-8724-9b611b37371b",
+    "timestamp": "2026-05-03T14:17:00.079419",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 8 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "74e581b5-334b-4f5c-9b0a-ab00b27ce1e5",
+    "timestamp": "2026-05-03T14:17:11.644030",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 222 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "467583a8-fe63-42e8-aa9b-209b6d97e140",
+    "timestamp": "2026-05-03T14:17:17.631956",
+    "event_type": "behavioral_analysis",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse comportementale - score risque : 50",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "d0baa740-d6b1-4b94-9bba-993e7d7f1312",
+    "timestamp": "2026-05-03T14:17:30.724143",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 93",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "26cc60f1-35c6-434f-8b23-be71b23ac1b4",
+    "timestamp": "2026-05-03T14:18:22.298261",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 12 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "0d3de928-a29a-4d96-94f3-cfca63a57a55",
+    "timestamp": "2026-05-03T14:29:49.298512",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 94",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "6a2bc293-9d2d-4128-99cf-ec265c79eabd",
+    "timestamp": "2026-05-03T14:30:05.071051",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 14 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "377745bd-8644-442d-8af6-848cc8baa990",
+    "timestamp": "2026-05-03T14:46:26.577098",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "ac074502-9049-4e62-8fef-1a1b60d7e026",
+    "timestamp": "2026-05-03T14:50:25.356323",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "20088504-20ba-446f-bce1-519d4d0c8fab",
+    "timestamp": "2026-05-03T14:50:30.647287",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "21bfba8d-38df-4e92-9ba9-370850a539d6",
+    "timestamp": "2026-05-03T14:54:14.785074",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "d948a108-a55c-47a9-a01d-321c59cd17fa",
+    "timestamp": "2026-05-03T14:54:29.944091",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "4fbd2548-59b8-444b-8f10-57feb2585d55",
+    "timestamp": "2026-05-03T14:55:15.246418",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "97b480f0-0c38-49ad-9776-34168cce559f",
+    "timestamp": "2026-05-03T14:55:45.398033",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "b077f44c-f97b-4ea7-a343-e622496eb837",
+    "timestamp": "2026-05-03T15:02:38.222895",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "80186c16-a121-4d83-bde0-3c34e5273fe7",
+    "timestamp": "2026-05-03T15:03:04.101617",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "3a92f5e9-6005-4337-8036-d4f73fd3fa38",
+    "timestamp": "2026-05-03T15:04:05.167213",
+    "event_type": "ai_recommendations",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Génération recommandations IA - score global : 97",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "9e0ad085-b973-49e4-b0e8-c9e7882060fa",
+    "timestamp": "2026-05-03T15:04:25.653727",
+    "event_type": "ai_analysis_personalisee",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Analyse anomalies IA personnalisée - 25 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "9e2cf2e9-94de-4016-9722-09c24fa06019",
+    "timestamp": "2026-05-03T15:04:43.687800",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "1c0129b7-6318-4e4f-a905-5eefc45b5d97",
+    "timestamp": "2026-05-03T15:04:50.766315",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "54cc4cd8-1d41-457c-b4f4-b7d8648d0b5b",
+    "timestamp": "2026-05-03T15:05:06.202797",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "e6a38f50-f420-42f3-930e-3a11e1c28a1f",
+    "timestamp": "2026-05-03T15:06:00.425765",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "b5987417-f47e-47cb-a260-06f544403e14",
+    "timestamp": "2026-05-03T15:06:10.614430",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "70191180-f460-48ae-8660-5c2783d6c882",
+    "timestamp": "2026-05-03T15:06:25.946607",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "cdaa9d71-6cb7-437a-b666-0a87053b78ef",
+    "timestamp": "2026-05-03T15:06:27.150615",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "80861892-95b4-4213-b361-42b28c01b516",
+    "timestamp": "2026-05-03T15:07:05.915814",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "819a1ef9-c151-43db-9d05-5d33276795f1",
+    "timestamp": "2026-05-03T15:07:06.328020",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "fd4414e3-9352-4af5-9493-cbca0532887a",
+    "timestamp": "2026-05-03T15:07:06.488109",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "6d79b66d-e6b1-4321-beac-12647b537aa0",
+    "timestamp": "2026-05-03T15:07:06.665891",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "30a3265c-ff74-4707-bd2e-f74f77dd191f",
+    "timestamp": "2026-05-03T15:07:06.912709",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "43daffc5-b070-4c94-bfbd-55d84552dccc",
+    "timestamp": "2026-05-03T15:07:07.089080",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "1dae3f6f-9e1d-4e41-a73c-c301c9e29733",
+    "timestamp": "2026-05-03T15:08:26.555633",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "966b7564-3dce-47b4-a6ce-a87ccb78cad1",
+    "timestamp": "2026-05-03T15:09:33.036981",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "ef4aac32-26c1-4d58-8269-39d8e2b03a83",
+    "timestamp": "2026-05-03T15:11:22.871126",
+    "event_type": "register",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Nouveau compte créé: deogratiashounnou@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "1590e72a-25dc-4d7d-9d86-0560a0ee3bc0",
+    "timestamp": "2026-05-03T15:11:24.883554",
+    "event_type": "request_otp",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou@gmail.com (email_sent: True)",
+    "session_id": null
+  },
+  {
+    "id": "e17d0e63-4e97-425c-9855-5c83752df76d",
+    "timestamp": "2026-05-03T15:11:47.662766",
+    "event_type": "login",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "success": false,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Compte non vérifié: deogratiashounnou@gmail.com",
+    "session_id": null
+  },
+  {
+    "id": "8c0d6f2e-b194-423a-b83d-0f888b30283a",
+    "timestamp": "2026-05-03T15:12:02.021833",
+    "event_type": "request_otp",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "OTP généré et envoyé par email: deogratiashounnou@gmail.com (email_sent: True)",
+    "session_id": null
+  },
+  {
+    "id": "e27995c1-1f36-49c9-bce2-dcbadf1f1c56",
+    "timestamp": "2026-05-03T15:12:12.969405",
+    "event_type": "login",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Connexion réussie: deogratiashounnou1@gmail.com",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "6017ed80-fad9-48c1-bd42-e8733b2fa18f",
+    "timestamp": "2026-05-03T15:12:14.305787",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "395c4361-251e-4c2f-8145-0d3ef8119710",
+    "timestamp": "2026-05-03T15:13:11.464373",
+    "event_type": "profile_updated",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Profil modifié: ['email', 'first_name', 'last_name']",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "f1d31250-d24c-425a-b995-889f63161dd1",
+    "timestamp": "2026-05-03T15:13:23.422955",
+    "event_type": "profile_updated",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Profil modifié: ['email', 'first_name', 'last_name']",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "d8957322-73eb-4ee8-a5ff-93aa7b8b11be",
+    "timestamp": "2026-05-03T15:13:35.065422",
+    "event_type": "profile_updated",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "medium",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Profil modifié: ['email', 'first_name', 'last_name']",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "98e94066-582e-4f49-a5d3-ea77604ae76d",
+    "timestamp": "2026-05-03T15:15:05.741369",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "e6963d16-6f7c-461d-b02e-271dd312dbc8",
+    "timestamp": "2026-05-03T15:20:14.828515",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "e231577f-1319-4a08-83c6-56dfaadae928",
+    "timestamp": "2026-05-03T15:20:45.109892",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "a101aff7-ae56-46f3-8ea0-2ffd9f746722",
+    "timestamp": "2026-05-03T15:21:04.211663",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "5170dc54-59b9-4410-895b-cc2e9d0b38df",
+    "timestamp": "2026-05-03T15:22:13.494228",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "0129d295-601c-4de8-a0d1-d5e9d76dc304",
+    "timestamp": "2026-05-03T15:22:17.208206",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "d9e37be1-5096-4677-8974-087cbdc80dc7",
+    "timestamp": "2026-05-03T15:22:58.430480",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "7f2dbec1-0ab2-42cc-b608-991714de46d6",
+    "timestamp": "2026-05-03T15:33:02.147929",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "a8a97318-3656-4b17-9e7d-332a84c96d9e",
+    "timestamp": "2026-05-03T15:34:15.853393",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "9cbe4d08-80da-4bc7-9600-061ecf6e9b17",
+    "timestamp": "2026-05-03T15:35:42.321136",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "8eea9602-f4eb-4106-8ec5-e521bfb20eb2",
+    "timestamp": "2026-05-03T15:40:05.348684",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "4b69790d-70c6-4289-b575-117a3577e8ea",
+    "timestamp": "2026-05-03T15:49:23.207954",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "484bf147-a044-4939-92ac-e6d9e1ac80d1",
+    "timestamp": "2026-05-03T15:55:08.431559",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "801ebcf3-6058-42b5-82bc-935a65581cea",
+    "timestamp": "2026-05-03T16:03:44.074532",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "d0ccc9d3-dffb-483a-83a5-e01f945e2544",
+    "timestamp": "2026-05-03T16:08:32.413206",
+    "event_type": "ai_prediction",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Prédiction menaces IA - 277 logs analysés",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  },
+  {
+    "id": "5a86c416-7972-47fe-9a75-1e55d927c264",
+    "timestamp": "2026-05-03T16:08:44.662951",
+    "event_type": "access_my_security",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "success": true,
+    "risk_level": "low",
+    "ip_address": "127.0.0.1",
+    "country": "Local",
+    "device": {
+      "type": "unknown",
+      "os": "Windows",
+      "browser": "Chrome"
+    },
+    "location": null,
+    "details": "Accès résumé sécurité complet - 20 logs, 1 alertes",
+    "session_id": "b4b1dc4c-1e82-4871-9819-2271a3505f17"
+  }
+]

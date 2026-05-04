@@ -1,0 +1,33 @@
+# Framework Web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Sécurité et Authentification
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-decouple==3.8
+
+# Email et OTP
+pyotp==2.9.0
+
+# Reconnaissance Vocale (Vosk)
+vosk==0.3.45
+soundfile==0.12.1
+
+# Traitement Audio et Mathématiques
+numpy==1.26.4
+
+# Analyse IA et API Externes
+requests==2.31.0
+groq==0.4.1
+
+# Configuration Environnement
+python-dotenv==1.0.0
+
+# Logging et Monitoring
+structlog==23.2.0
+
+# NOTE: Les modules suivants sont inclus dans la bibliothèque standard Python :
+# - hashlib, secrets, datetime, json, logging, os, tempfile, io, wave
+# - pathlib, typing, contextlib, time, uuid, base64

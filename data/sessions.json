@@ -1,0 +1,42 @@
+[
+  {
+    "id": "05e6c2ac-dc3a-4008-bf3d-968aa09d8f3a",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "token_hash": "11cd14c554664d22e91a7e0d6814ac1cd2a1f421049e3d2f1e1ea27556e488db",
+    "created_at": "2026-04-27T21:18:37.385891",
+    "expires_at": "2026-04-28T21:18:37.386184",
+    "is_active": true,
+    "voice_verified": false,
+    "voice_verified_at": null
+  },
+  {
+    "id": "0951b062-072c-4bce-976e-93f031caf852",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "token_hash": "390c609bb87ce02472ea472a744ce26488fad03bb13509efc36fa3d5945c41bb",
+    "created_at": "2026-04-27T22:21:43.140622",
+    "expires_at": "2026-04-28T22:21:43.140645",
+    "is_active": true,
+    "voice_verified": false,
+    "voice_verified_at": null
+  },
+  {
+    "id": "b4b1dc4c-1e82-4871-9819-2271a3505f17",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "token_hash": "f02c41a168dc31b780ef98a1d1d7426c408d621a567d31ec1353a670d5d548ff",
+    "created_at": "2026-05-03T14:11:36.672500",
+    "expires_at": "2026-05-04T14:11:36.672535",
+    "is_active": true,
+    "voice_verified": false,
+    "voice_verified_at": null
+  },
+  {
+    "id": "cffcd09c-11d7-4174-822f-e8f81ad6a9b7",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "token_hash": "4bd9523370127f57e59cf96b7af5ff83ff28226d98a66af844c9fe99e96af687",
+    "created_at": "2026-05-03T15:12:12.917410",
+    "expires_at": "2026-05-04T15:12:12.917427",
+    "is_active": true,
+    "voice_verified": false,
+    "voice_verified_at": null
+  }
+]

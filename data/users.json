@@ -1,0 +1,45 @@
+[
+  {
+    "id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "email": "deogratiashounnou1@gmail.com",
+    "password_hash": "61d7f739b4618e5054d9b2f431b051690d89da8975828320ec35f04c6a15ba95",
+    "first_name": "HOUNNOU",
+    "last_name": "Déo-Gratias",
+    "created_at": "2026-04-27T20:53:43.111405",
+    "is_verified": true,
+    "failed_attempts": 0,
+    "locked_until": null,
+    "voice_samples": [
+      {
+        "path": "data\\voice_samples\\efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_a0e1d56b.wav",
+        "registered_at": "2026-04-27T22:27:12.646335"
+      },
+      {
+        "path": "data\\voice_samples\\efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_60bfd866.wav",
+        "registered_at": "2026-04-27T22:31:58.765159"
+      },
+      {
+        "path": "data\\voice_samples\\efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_190af569.wav",
+        "registered_at": "2026-04-27T22:44:24.382646"
+      },
+      {
+        "path": "data\\voice_samples\\efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab_edd10fdd.wav",
+        "registered_at": "2026-04-27T22:56:42.136489"
+      }
+    ],
+    "voice_registered": true
+  },
+  {
+    "id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "email": "deogratiashounnou@gmail.com",
+    "password_hash": "61d7f739b4618e5054d9b2f431b051690d89da8975828320ec35f04c6a15ba95",
+    "first_name": "Tom",
+    "last_name": "POP",
+    "created_at": "2026-05-03T15:11:22.741050",
+    "is_verified": false,
+    "voice_registered": false,
+    "voice_samples": [],
+    "failed_attempts": 0,
+    "locked_until": null
+  }
+]

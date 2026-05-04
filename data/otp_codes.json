@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1bc8edbb-1f56-4416-bee6-67761feaa762",
+    "user_id": "6b70bb10-c4b1-48c6-bc58-04c00ddf23ec",
+    "code": "903362",
+    "created_at": "2026-04-27T15:27:19.507054",
+    "expires_at": "2026-04-27T15:37:19.507078",
+    "used": false
+  },
+  {
+    "id": "912e57d2-bddd-48f1-b960-fe705516515b",
+    "user_id": "6b70bb10-c4b1-48c6-bc58-04c00ddf23ec",
+    "code": "679622",
+    "created_at": "2026-04-27T15:27:53.536454",
+    "expires_at": "2026-04-27T15:37:53.536460",
+    "used": true
+  },
+  {
+    "id": "5b76b48d-00e6-4d87-a624-6a19dde79c18",
+    "user_id": "af93fc28-5320-4f3a-b453-11f8bca33701",
+    "code": "980550",
+    "created_at": "2026-04-27T15:36:14.521166",
+    "expires_at": "2026-04-27T15:46:14.521225",
+    "used": false
+  },
+  {
+    "id": "1d3c94e5-7e23-4cff-a453-8b06069f5c8e",
+    "user_id": "af93fc28-5320-4f3a-b453-11f8bca33701",
+    "code": "614186",
+    "created_at": "2026-04-27T15:36:24.692510",
+    "expires_at": "2026-04-27T15:46:24.692519",
+    "used": true
+  },
+  {
+    "id": "4db07ec8-9d9f-4456-a30d-bf327aaa75ec",
+    "user_id": "43ea0de5-7e25-40c2-8ff9-cc0f259f4f8b",
+    "code": "237994",
+    "created_at": "2026-04-27T15:50:24.325029",
+    "expires_at": "2026-04-27T16:00:24.325038",
+    "used": true
+  },
+  {
+    "id": "582aff65-1f7d-4626-929d-2d9fb34bb76f",
+    "user_id": "0260f5ce-1c14-4095-b3b8-4fe0b535ac1b",
+    "code": "530537",
+    "created_at": "2026-04-27T15:54:02.546673",
+    "expires_at": "2026-04-27T16:04:02.546680",
+    "used": true
+  },
+  {
+    "id": "4fe21023-2adf-42ce-a096-5fa5e3fefa76",
+    "user_id": "c6bbd5cf-9df2-4c90-85dc-5eedd70b8c8e",
+    "code": "342551",
+    "created_at": "2026-04-27T15:57:50.764995",
+    "expires_at": "2026-04-27T16:07:50.765003",
+    "used": true
+  },
+  {
+    "id": "2c8ad749-f0bb-4f53-ac86-a2677f5b2cb5",
+    "user_id": "2a71e46d-6233-4c01-9dcd-81d01ef8d29d",
+    "code": "737074",
+    "created_at": "2026-04-27T17:48:55.447243",
+    "expires_at": "2026-04-27T17:58:55.447255",
+    "used": true
+  },
+  {
+    "id": "baaef124-1dc0-4eee-b1c1-30dd9b619843",
+    "user_id": "0cfcee15-dcb4-4d2f-856f-f26751597435",
+    "code": "538274",
+    "created_at": "2026-04-27T19:24:21.498078",
+    "expires_at": "2026-04-27T19:34:21.498089",
+    "used": false
+  },
+  {
+    "id": "0e0ea2d0-cbc7-487c-ae77-43e1f082caca",
+    "user_id": "0cfcee15-dcb4-4d2f-856f-f26751597435",
+    "code": "545967",
+    "created_at": "2026-04-27T19:29:09.471763",
+    "expires_at": "2026-04-27T19:39:09.472085",
+    "used": false
+  },
+  {
+    "id": "44a9fe3e-fc57-41de-9d63-f49f25561e55",
+    "user_id": "530d165c-78d0-4020-b8b3-64c5fbf8ebcc",
+    "code": "784865",
+    "created_at": "2026-04-27T20:39:06.642553",
+    "expires_at": "2026-04-27T20:49:06.642572",
+    "used": false
+  },
+  {
+    "id": "46e0067f-d6d5-4ff5-8713-d2295228c05c",
+    "user_id": "e7ff8778-2df2-473f-a3b7-1bac68d1df48",
+    "code": "004193",
+    "created_at": "2026-04-27T20:44:14.929211",
+    "expires_at": "2026-04-27T20:54:14.929231",
+    "used": false
+  },
+  {
+    "id": "7772a58f-2cc3-40c2-9c54-074df043417f",
+    "user_id": "e7ff8778-2df2-473f-a3b7-1bac68d1df48",
+    "code": "021697",
+    "created_at": "2026-04-27T20:48:12.431696",
+    "expires_at": "2026-04-27T20:58:12.431705",
+    "used": false
+  },
+  {
+    "id": "ea598c8a-25f3-4eba-a16e-4444fafcdd4e",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "code": "432017",
+    "created_at": "2026-04-27T20:53:43.258049",
+    "expires_at": "2026-04-27T21:03:43.258069",
+    "used": false
+  },
+  {
+    "id": "38f95379-1d05-450e-9c3d-8252c0d21dd6",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "code": "994701",
+    "created_at": "2026-04-27T20:56:52.702506",
+    "expires_at": "2026-04-27T21:06:52.702526",
+    "used": false
+  },
+  {
+    "id": "1ac22ec8-4812-48c5-8988-50aec706749d",
+    "user_id": "efb1cf7e-4cdc-4fcc-be93-49dd5c57e2ab",
+    "code": "102164",
+    "created_at": "2026-04-27T20:58:45.041736",
+    "expires_at": "2026-04-27T21:08:45.041749",
+    "used": true
+  },
+  {
+    "id": "4df0ba74-3e32-4738-99f1-5c930790853c",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "code": "312139",
+    "created_at": "2026-05-03T15:11:22.987880",
+    "expires_at": "2026-05-03T15:21:22.987901",
+    "used": false
+  },
+  {
+    "id": "9ab22477-ac56-454c-b1ed-cfe2d059849b",
+    "user_id": "ad1777d7-b91f-4bba-bb02-9a8f817fe88a",
+    "code": "015793",
+    "created_at": "2026-05-03T15:12:00.017564",
+    "expires_at": "2026-05-03T15:22:00.017582",
+    "used": false
+  }
+]
