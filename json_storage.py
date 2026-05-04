@@ -5,7 +5,7 @@ import secrets
 import pytz
 from datetime import datetime, timedelta
 import os
-import jwt
+import jwt as PyJWT
 from dotenv import load_dotenv
 
 # Charger les variables d'environnement
@@ -162,7 +162,7 @@ class JSONStorage:
             'iat': datetime.now(pytz.utc)
         }
         
-        token = jwt.encode(payload, self.jwt_secret, algorithm='HS256')
+        token = PyJWT.encode(payload, self.jwt_secret, algorithm='HS256')
         
         # Sauvegarder la session
         sessions = self._read_json(self.sessions_file)
@@ -183,11 +183,11 @@ class JSONStorage:
     def validate_token(self, token):
         """Valide un token JWT"""
         try:
-            payload = jwt.decode(token, self.jwt_secret, algorithms=['HS256'])
+            payload = PyJWT.decode(token, self.jwt_secret, algorithms=['HS256'])
             return payload
-        except jwt.ExpiredSignatureError:
+        except PyJWT.ExpiredSignatureError:
             return None
-        except jwt.InvalidTokenError:
+        except PyJWT.InvalidTokenError:
             return None
     
     def get_user_by_token(self, token):
