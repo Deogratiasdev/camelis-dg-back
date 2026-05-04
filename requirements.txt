@@ -18,6 +18,9 @@ soundfile==0.12.1
 # Traitement Audio et Mathématiques
 numpy==1.26.4
 
+# Fuseaux Horaires
+pytz==2024.1
+
 # Analyse IA et API Externes
 requests==2.31.0
 groq==0.4.1
