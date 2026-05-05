@@ -28,6 +28,19 @@ class JSONStorage:
         
         # Créer le dossier data s'il n'existe pas
         os.makedirs(self.data_dir, exist_ok=True)
+
+    def _normalize_user(self, user):
+        """Garantit la présence des champs attendus par le front."""
+        if not user:
+            return user
+
+        user.setdefault("first_name", "")
+        user.setdefault("last_name", "")
+        user.setdefault("email", "")
+        user.setdefault("group", "Utilisateur")
+        user.setdefault("created_at", "")
+        user.setdefault("is_verified", False)
+        return user
     
     def _read_json(self, filepath):
         """Lit un fichier JSON"""
@@ -58,6 +71,7 @@ class JSONStorage:
             "password_hash": hashlib.sha256(password.encode()).hexdigest(),
             "first_name": first_name,
             "last_name": last_name,
+            "group": "Utilisateur",
             "created_at": datetime.now().isoformat(),
             "is_verified": False,
             "failed_attempts": 0,
@@ -73,7 +87,7 @@ class JSONStorage:
         users = self._read_json(self.users_file)
         for user in users:
             if user['email'] == email:
-                return user
+                return self._normalize_user(user)
         return None
     
     def verify_password(self, password, hashed):
@@ -146,8 +160,11 @@ class JSONStorage:
                     user['first_name'] = kwargs['first_name']
                 if 'last_name' in kwargs:
                     user['last_name'] = kwargs['last_name']
+                if 'group' in kwargs:
+                    user['group'] = kwargs['group']
                 if 'password' in kwargs:
                     user['password_hash'] = self._hash_password(kwargs['password'])
+                self._normalize_user(user)
                 self._write_json(self.users_file, users)
                 return user
         return None
@@ -200,7 +217,7 @@ class JSONStorage:
         users = self._read_json(self.users_file)
         for user in users:
             if user['id'] == user_id:
-                return user
+                return self._normalize_user(user)
         return None
     
     def invalidate_token(self, token):

@@ -31,6 +31,7 @@ class UserResponse(BaseModel):
     email: str
     first_name: str
     last_name: str
+    group: str
     message: str
 
 class OTPRequest(BaseModel):
@@ -48,6 +49,9 @@ class LoginResponse(BaseModel):
     token: str
     user_id: str
     email: str
+    first_name: str
+    last_name: str
+    group: str
     message: str
 
 class UpdateProfileRequest(BaseModel):
@@ -100,6 +104,7 @@ async def register_user(user: UserRegister, request: Request):
             email=new_user["email"],
             first_name=new_user["first_name"],
             last_name=new_user["last_name"],
+            group=new_user.get("group", "Utilisateur"),
             message="Inscription réussie. Veuillez vérifier votre compte avec le code OTP."
         )
         
@@ -341,7 +346,8 @@ async def login(request: LoginRequest, http_request: Request):
             "user_id": user['id'],
             "email": user['email'],
             "first_name": user.get('first_name', ''),
-            "last_name": user.get('last_name', '')
+            "last_name": user.get('last_name', ''),
+            "group": user.get('group', 'Utilisateur')
         }
         
     except HTTPException:
@@ -413,6 +419,7 @@ async def get_my_security(
             "email": user['email'],
             "first_name": user.get('first_name', ''),
             "last_name": user.get('last_name', ''),
+            "group": user.get('group', 'Utilisateur'),
             "is_verified": user.get('is_verified', False),
             "created_at": user.get('created_at', '')
         }
@@ -536,7 +543,8 @@ async def update_profile(
                 "id": updated_user['id'],
                 "email": updated_user['email'],
                 "first_name": updated_user.get('first_name', ''),
-                "last_name": updated_user.get('last_name', '')
+                "last_name": updated_user.get('last_name', ''),
+                "group": updated_user.get('group', 'Utilisateur')
             }
         }
         
