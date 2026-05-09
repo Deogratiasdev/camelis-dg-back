@@ -175,7 +175,7 @@ class JSONStorage:
         """Crée une session JWT"""
         payload = {
             'user_id': user_id,
-            'exp': datetime.now(pytz.utc) + timedelta(hours=24),
+            'exp': datetime.now(pytz.utc) + timedelta(days=7),
             'iat': datetime.now(pytz.utc)
         }
         
@@ -188,7 +188,7 @@ class JSONStorage:
             "user_id": user_id,
             "token_hash": hashlib.sha256(token.encode()).hexdigest(),
             "created_at": datetime.now().isoformat(),
-            "expires_at": (datetime.now() + timedelta(hours=24)).isoformat(),
+            "expires_at": (datetime.now() + timedelta(days=7)).isoformat(),
             "is_active": True
         }
         
